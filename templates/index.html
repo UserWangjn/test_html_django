@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>hello world!!</h1>
+
+<form action="wjn_home" method="post" enctype="multipart/form-data">
+    <p>用户名：<input type="text" name="username"></p>
+    <p>密 码：<input type="password" name="pwd"></p>
+    <p>
+        性别：<label for="man">男</label>
+        <input id="man" type="radio" name="sex" value="1">
+    </p>
+    <p>     女<input type="radio" name="sex" value="0"></p>
+    <p>爱好：篮球<input type="checkbox" name="hobby" value="bsk"></p>
+    <p>     足球<input type="checkbox" name="hobby" value="football"></p>
+    <p><input type="file" name="up_file"></p>
+
+    出生地：<select name="city" multiple>
+
+        <optgroup label="河北省">
+            <option>保定市</option>
+            <option>石家庄</option>
+            <option>邯郸</option>
+        </optgroup>
+
+        <option value="bj">北京</option>
+        <option value="tj">天津</option>
+        <option value="sz">深圳</option>
+        <option value="sh">上海</option>
+    </select>
+
+    <textarea cols="30" rows="10">自我介绍</textarea>
+
+    <p><input type="submit" value="press111"></p>
+</form>
+</body>
+</html>
